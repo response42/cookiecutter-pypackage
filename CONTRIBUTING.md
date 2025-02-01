@@ -38,7 +38,7 @@ Execute `inv[oke] --list` to see the list of available commands.
 
 ### Issues
 
-We use GitHub issues to track public bugs/enhancements. Report a new one by [opening a new issue](https://github.com/fedejaure/cookiecutter-modern-pypackage/issues).
+We use GitHub issues to track public bugs/enhancements. Report a new one by [opening a new issue](https://github.com/response42/cookiecutter-pypackage/issues).
 
 In this repository, we provide a couple of templates for you to fill in for:
 
@@ -72,4 +72,4 @@ execute `inv[oke] lint` and `inv[oke] format`.
 
 ## Additional Notes
 
-If you have any question feel free to contact us at fedejaure@gmail.com.
+If you have any question feel free to contact us at response42@gmail.com.

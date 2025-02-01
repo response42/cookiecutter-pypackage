@@ -8,15 +8,15 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Federico
-    family-names: Jaureguialzo
-    alias: fedejaure
+  - given-names: Milan
+    family-names: Mosny
+    alias: milan-response42
 identifiers:
   - type: url
     value: >-
-      https://github.com/fedejaure/cookiecutter-modern-pypackage/releases/tag/v3.1.0
+      https://github.com/response42/cookiecutter-pypackage/releases/tag/v3.1.0
     description: The Software Heritage link for version 3.1.0.
-repository-code: 'https://github.com/fedejaure/cookiecutter-modern-pypackage'
+repository-code: 'https://github.com/response42/cookiecutter-pypackage'
 abstract: Cookiecutter template for a modern Python package.
 keywords:
   - cookiecutter

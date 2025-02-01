@@ -9,9 +9,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "cookiecutter-modern-pypackage"
-copyright = "2020, Federico Jaureguialzo"  # noqa: A001
-author = "Federico Jaureguialzo"
+project = "cookiecutter-pypackage"
+copyright = "2025, Milan Mosny"  # noqa: A001
+author = "Milan Mosny
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -54,8 +54,8 @@ html_theme = "alabaster"
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    "github_user": "fedejaure",
-    "github_repo": "cookiecutter-modern-pypackage",
+    "github_user": "milan-response42",
+    "github_repo": "cookiecutter-pypackage",
     "github_banner": True,
     "show_related": False,
     "fixed_sidebar": True,

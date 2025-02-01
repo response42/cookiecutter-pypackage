@@ -1,4 +1,4 @@
-"""Tests for `cookiecutter-modern-pypackage` package."""
+"""Tests for `cookiecutter-pypackage` package."""
 
 import datetime
 import os
