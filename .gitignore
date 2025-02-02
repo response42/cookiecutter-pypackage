@@ -133,6 +133,3 @@ dmypy.json
 
 # Cookiecutter
 modern-python-boilerplate/
-
-# Code editors
-.vscode
