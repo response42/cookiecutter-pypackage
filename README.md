@@ -94,44 +94,19 @@ cookiecutter --version
 pipx install cruft
 ```
 
-#### [poetry](https://python-poetry.org/docs/)
-
-```sh
-pipx install poetry
-```
 
 ### 2. Generate your Python Package
 
 Run cruft using the latest release
 
 ```sh
-cruft create gh:response42/cookiecutter-pypackage
+cruft create git@github.com:response42/cookiecutter-pypackage.git
 ```
 
 ### 3. Set up Your Project
 
-Follow these steps to complete the setup:
-
 * Create a new GitHub repository and push your generated project there.
-* Install the development requirements into a virtual environment:
-
-    ```sh
-    poetry install
-    ```
-
-* Install pre-commit hooks:
-
-    ```sh
-    poetry run inv install-hooks
-    ```
-
-* Configure [Codecov][codecov] repository settings. (Codecov App, `CODECOV_TOKEN`)
-* Add your repository to your [Read the Docs][rtd] account and enable the Read the Docs service hook.
-* Configure [PyPI][pypi] and [TestPyPI][testpypi] tokens. (`PYPI_TOKEN`, `TEST_PYPI_TOKEN`)
-* Release your package by pushing a new tag.
-
-> [!TIP]
-> For more details, see the [tutorial][tutorial].
+* Follow the project's CONTRIBUTING.md to set it up.
 
 ## 📝 Credits
 

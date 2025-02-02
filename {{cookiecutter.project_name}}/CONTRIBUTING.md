@@ -15,20 +15,36 @@ We take our open source community seriously and hold ourselves and other contrib
 
 We use `poetry` to manage and install dependencies. [Poetry](https://python-poetry.org/) provides a custom installer that will install `poetry` isolated from the rest of your system.
 
-```
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
-```
+Follow [Installation Guide](https://python-poetry.org/docs/#installing-with-the-official-installer). 
+
+For easy access to poetry shell, install [Poetry Plugin: Shell](https://github.com/python-poetry/poetry-plugin-shell).
+
 
 We'll also need `nox` for automated testing in multiple Python environments so [install that too](https://nox.thea.codes/en/stable/).
 
 To install the local development requirements inside a virtual environment run:
 
+```sh
+poetry install
+poetry run inv install-hooks
 ```
-$ poetry install
-$ poetry run inv install-hooks
+
+To run commands in the installed environment, run:
+
+```sh
+poetry shell
 ```
 
 > For more information about `poetry` check the [docs](https://python-poetry.org/docs/).
+
+
+Configure [Codecov][codecov] repository settings. (Codecov App, `CODECOV_TOKEN`)
+Add your repository to your [Read the Docs][rtd] account and enable the Read the Docs service hook.
+Configure [PyPI][pypi] and [TestPyPI][testpypi] tokens. (`PYPI_TOKEN`, `TEST_PYPI_TOKEN`)
+Release your package by pushing a new tag.
+
+> [!TIP]
+> For more details, see the [tutorial][tutorial].
 
 We use [invoke](http://www.pyinvoke.org/) to wrap up some useful tasks like formatting, linting, testing and more.
 
