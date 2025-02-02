@@ -68,6 +68,9 @@ fix = true
 extend-exclude = [
     "docs/*",
 ]
+extend-include = [
+  "*.ipynb",
+]
 
 [tool.ruff.lint]
 select = [
