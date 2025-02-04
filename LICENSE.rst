@@ -1,7 +1,7 @@
 MIT License
 ===========
 
-Copyright (c) 2025 Milan Mosny
+Copyright (c) 2020 Federico Jaureguialzo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
