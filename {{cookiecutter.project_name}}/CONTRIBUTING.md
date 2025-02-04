@@ -37,11 +37,6 @@ poetry shell
 > For more information about `poetry` check the [docs](https://python-poetry.org/docs/).
 
 
-Configure [Codecov][codecov] repository settings. (Codecov App, `CODECOV_TOKEN`)
-Add your repository to your [Read the Docs][rtd] account and enable the Read the Docs service hook.
-Configure [PyPI][pypi] and [TestPyPI][testpypi] tokens. (`PYPI_TOKEN`, `TEST_PYPI_TOKEN`)
-Release your package by pushing a new tag.
-
 > [!TIP]
 > For more details, see the [tutorial][tutorial].
 

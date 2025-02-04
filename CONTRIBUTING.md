@@ -72,4 +72,4 @@ execute `inv[oke] lint` and `inv[oke] format`.
 
 ## Additional Notes
 
-If you have any question feel free to contact us at response42@gmail.com.
+If you have any question feel free to contact us at milan.mosny@response42.com.

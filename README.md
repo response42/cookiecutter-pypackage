@@ -106,7 +106,10 @@ cruft create git@github.com:response42/cookiecutter-pypackage.git
 ### 3. Set up Your Project
 
 * Create a new GitHub repository and push your generated project there.
-* Follow the project's CONTRIBUTING.md to set it up.
+* Configure [Codecov][codecov] repository settings. (Codecov App, `CODECOV_TOKEN`)
+* Add your repository to your [Read the Docs][rtd] account and enable the Read the Docs service hook.
+* Configure [PyPI][pypi] and [TestPyPI][testpypi] tokens. (`PYPI_TOKEN`, `TEST_PYPI_TOKEN`)
+* Release your package by pushing a new tag.
 
 ## 📝 Credits
 
