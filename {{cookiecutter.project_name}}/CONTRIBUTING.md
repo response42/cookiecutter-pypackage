@@ -15,10 +15,9 @@ We take our open source community seriously and hold ourselves and other contrib
 
 We use `poetry` to manage and install dependencies. [Poetry](https://python-poetry.org/) provides a custom installer that will install `poetry` isolated from the rest of your system.
 
-Follow [Installation Guide](https://python-poetry.org/docs/#installing-with-the-official-installer). 
+Follow [Installation Guide](https://python-poetry.org/docs/#installing-with-the-official-installer).
 
 For easy access to poetry shell, install [Poetry Plugin: Shell](https://github.com/python-poetry/poetry-plugin-shell).
-
 
 We'll also need `nox` for automated testing in multiple Python environments so [install that too](https://nox.thea.codes/en/stable/).
 

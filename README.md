@@ -66,13 +66,13 @@ sudo apt-get install python3-pip
 
 #### [pipx](https://github.com/pypa/pipx)
 
-Ubuntu 24.04: 
+Ubuntu 24.04:
 [Pipx official  installation instructions](https://github.com/pypa/pipx#install-pipx) leads to installing an old version. [This discussion](https://github.com/pypa/pipx/issues/1481) suggests using pipx to install pipx
 
 ```sh
 sudo apt install pipx               # installs pipx version 1.4.3 to /usr/local/bin  recall --global is busted
 pipx ensurepath                     # adds ~/.local/bin to path
-pipx install pipx                   # installs latest pipx to ~/.local/bin 
+pipx install pipx                   # installs latest pipx to ~/.local/bin
 sudo apt purge --autoremove pipx    # remove pipx 1.4.3 via apt,  and all extra files including autocomplete from /usr/local/bin
 
 # restart shell
@@ -110,7 +110,7 @@ cruft create git@github.com:response42/cookiecutter-pypackage.git
 
 ## 📝 Credits
 
-This cookiecutter was forked from 
+This cookiecutter was forked from
 * [fedejaure/cookiecutter-modern-pypackage](fedejaure/cookiecutter-modern-pypackage)
 
 Which was in turn inspired by inspired by:
