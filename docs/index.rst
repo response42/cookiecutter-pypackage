@@ -1,4 +1,4 @@
-Welcome to cookiecutter-modern-pypackage's documentation!
+Welcome to cookiecutter-pypackage's documentation!
 =========================================================
 
 Getting Started

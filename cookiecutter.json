@@ -1,9 +1,9 @@
 {
-  "given_names": "Federico",
-  "family_names": "Jaureguialzo",
+  "given_names": "Milan",
+  "family_names": "Mosny",
   "full_name": "{{ cookiecutter.given_names }} {{ cookiecutter.family_names }}",
-  "email": "fedejaure@example.com",
-  "github_username": "fedejaure",
+  "email": "milan.mosny@response42.com",
+  "github_username": "milan-response42",
   "project_name": "modern-python-boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace('-', '_') }}",
   "project_title": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",

@@ -10,7 +10,7 @@ type: software
 authors:
   - given-names: {{ cookiecutter.given_names }}
     family-names: {{ cookiecutter.family_names }}
-    alias: fedejaure
+    alias: milan-response42
 identifiers:
   - type: url
     value: >-

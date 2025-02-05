@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "cookiecutter-modern-pypackage"
+name = "cookiecutter-pypackage"
 version = "3.1.0"
 description = "Cookiecutter template for a modern Python package."
-authors = ["Federico Jaureguialzo <fedejaure@gmail.com>"]
+authors = ["Milan Mosny <milan.mosny@response42.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/fedejaure/cookiecutter-modern-pypackage"
-repository = "https://github.com/fedejaure/cookiecutter-modern-pypackage"
-documentation = "https://cookiecutter-modern-pypackage.readthedocs.io"
+homepage = "https://github.com/response42/cookiecutter-pypackage"
+repository = "https://github.com/response42/cookiecutter-pypackage"
+documentation = "https://cookiecutter-pypackage.readthedocs.io"
 keywords=["cookiecutter", "template", "package"]
 classifiers=[
     "Development Status :: 4 - Beta",
@@ -28,7 +28,7 @@ classifiers=[
 package-mode = false
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/fedejaure/cookiecutter-modern-pypackage/issues"
+"Bug Tracker" = "https://github.com/response42/cookiecutter-pypackage/issues"
 
 [tool.poetry.dependencies]
 python = "<3.13,>=3.9"
@@ -67,6 +67,9 @@ line-length = 99
 fix = true
 extend-exclude = [
     "docs/*",
+]
+extend-include = [
+  "*.ipynb",
 ]
 
 [tool.ruff.lint]
