@@ -55,6 +55,13 @@ def clean_python(c: Context) -> None:
 
 
 @task()
+def clean_poetry(c: Context) -> None:
+    """Clean up python file artifacts."""
+    _run(c, "rm -fr .venv")
+    _run(c, "rm poetry.lock")
+
+
+@task()
 def clean_tests(c: Context) -> None:
     """Clean up files from testing."""
     _run(c, f"rm -f {COVERAGE_FILE}")

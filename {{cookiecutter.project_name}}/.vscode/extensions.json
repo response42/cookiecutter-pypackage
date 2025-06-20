@@ -3,6 +3,14 @@
     "ms-python.python",
     "charliermarsh.ruff",
     "ms-python.mypy-type-checker",
-    "numso.prettier-standard-vscode"
+    "numso.prettier-standard-vscode",
+    "ms-toolsai.jupyter",
+    "ms-toolsai.datawrangler",
+    "donjayamanne.vscode-default-python-kernel",
+    "donjayamanne.githistory",
+    "github.vscode-github-actions",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-azuretools.vscode-docker",
+    "mhutchie.git-graph"
   ]
 }

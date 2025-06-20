@@ -10,7 +10,7 @@ type: software
 authors:
   - given-names: {{ cookiecutter.given_names }}
     family-names: {{ cookiecutter.family_names }}
-    alias: milan-response42
+    alias: {{ cookiecutter.github_username }}
 identifiers:
   - type: url
     value: >-
