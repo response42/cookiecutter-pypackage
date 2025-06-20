@@ -11,6 +11,14 @@ We take our open source community seriously and hold ourselves and other contrib
 
 ## Getting Started
 
+### Prerequisites
+
+On linux, make sure that python points to python3. This is needed for poetry (see below).
+
+```sh
+sudo apt install python-is-python3
+```
+
 ### Requirements
 
 We use `poetry` to manage and install dependencies. [Poetry](https://python-poetry.org/) provides a custom installer that will install `poetry` isolated from the rest of your system.
@@ -19,7 +27,12 @@ Follow [Installation Guide](https://python-poetry.org/docs/#installing-with-the-
 
 For easy access to poetry shell, install [Poetry Plugin: Shell](https://github.com/python-poetry/poetry-plugin-shell).
 
-We'll also need `nox` for automated testing in multiple Python environments so [install that too](https://nox.thea.codes/en/stable/).
+We'll also need `nox` for automated testing in multiple Python environments so [install that too](https://nox.thea.codes/en/stable/) together with [nox-poetry](https://github.com/cjolowicz/nox-poetry).
+
+```sh
+pipx install nox
+pipx inject nox nox-poetry
+```
 
 To install the local development requirements inside a virtual environment run:
 
@@ -35,10 +48,6 @@ poetry shell
 ```
 
 > For more information about `poetry` check the [docs](https://python-poetry.org/docs/).
-
-
-> [!TIP]
-> For more details, see the [tutorial][tutorial].
 
 We use [invoke](http://www.pyinvoke.org/) to wrap up some useful tasks like formatting, linting, testing and more.
 
