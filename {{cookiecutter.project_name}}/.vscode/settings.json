@@ -31,5 +31,5 @@
   "notebook.defaultFormatter": "charliermarsh.ruff",
   "notebook.output.scrolling": true,
   "mypy-type-checker.reportingScope": "workspace",
-  "mypy-type-checker.preferDaemon": false,
+  "mypy-type-checker.preferDaemon": false
 }
